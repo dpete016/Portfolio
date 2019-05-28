@@ -1,6 +1,5 @@
 html {
   scroll-behavior: smooth;
-<<<<<<< HEAD
 }
 
 .logo {
@@ -21,42 +20,19 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 0px;
   padding: 20px;
-=======
-}
-<<<<<<< HEAD
-
-.logo {
-  height: 64px;
-  width: auto;
-  margin: 0 35px;
-  padding: 20px 0;
-  display: inline-block;
 }
 
-body {
-  height: 125vh;
-  background-image: url("../images/Abstract\ background\ vector\ 1.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-top: 0px;
-  padding: 20px;
-}
-  
 #logo {
-    position: relative;
-    float: left;
-    width: 64px;
-    height: 64px;  
-    margin-top: 5px;
+  position: relative;
+  float: left;
+  width: 64px;
+  height: 64px;
+  margin-top: 5px;
 }
-  
-nav {
-    float: right;
-    margin-top: 5px;
 
+nav {
+  float: right;
+  margin-top: 5px;
 }
 
 header {
@@ -106,29 +82,22 @@ section {
   background-attachment: fixed;
 }
 
-
 #dan .profile-img {
   width: 400px;
   border-radius: 90%;
 }
-  
+
 h1,
 h2,
 h3,
-p{
-    margin-bottom: 20px;
-
+p {
+  margin-bottom: 20px;
 }
 
 footer {
   background-color: black;
   position: relative;
- 
- 
-
 }
-
-
 
 footer li {
   display: inline-block;
@@ -161,11 +130,6 @@ section p {
   max-width: 600px;
 }
 
-
-
-
-
-
 footer li {
   display: inline-block;
   margin: 0 35px;
@@ -196,18 +160,14 @@ section p {
   font-size: 1.5em;
   max-width: 600px;
 }
-
 
 #projects img {
   width: 250px;
-  
 }
-
 
 #illustrations img {
   width: 250px;
   height: auto;
-
 }
 #illustrations img {
   width: 250px;
@@ -216,17 +176,14 @@ section p {
 
 .pf-icon {
   width: 50%;
-  height: auto
+  height: auto;
 }
-
-  
-
 
 .gallery {
-  margin: 10px 200px;
+  margin: 10px 500px;
 }
 
-.gallery img{
+.gallery img {
   transition: 1s;
   padding: 15px;
   width: 250px;
@@ -248,8 +205,6 @@ header a {
 
 #about {
   background-image: url("../images/abstract-267046_1920.png");
-  
-
 }
 
 #projects {
@@ -258,21 +213,17 @@ header a {
 
 #illustrations {
   background-image: url("../images/sketch-3218196_1920.jpg");
-  
-  
 }
 
-
-
-h2{
-    font-size: 22px;
+h2 {
+  font-size: 22px;
 }
 
-p1{
+p1 {
   font-size: 18px;
- color: #110f0f;
- margin-right: 20%;
-}   
+  color: #110f0f;
+  margin-right: 20%;
+}
 
 footer {
   text-align: center;

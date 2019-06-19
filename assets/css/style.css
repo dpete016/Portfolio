@@ -2,6 +2,22 @@ html {
   scroll-behavior: smooth;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
 .logo {
   height: 64px;
   width: auto;
@@ -12,7 +28,8 @@ html {
 
 body {
   height: 125vh;
-  background-image: url("../images/Abstract\ background\ vector\ 1.jpg");
+  /* background-image: url("../images/Abstract\ background\ vector\ 1.jpg"); */
+  background: black;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -36,6 +53,7 @@ nav {
 }
 
 header {
+  z-index: 2;
   background-color: black;
   position: fixed;
   top: 0;
@@ -70,7 +88,7 @@ header * {
 
 section {
   height: 100vh;
-
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,6 +99,7 @@ section {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 
 #dan .profile-img {
   width: 400px;
@@ -167,21 +186,18 @@ section p {
 
 #illustrations img {
   width: 250px;
-  height: auto;
+
 }
-#illustrations img {
-  width: 250px;
-  height: auto;
-}
+
 
 .pf-icon {
   width: 50%;
   height: auto;
 }
 
-.gallery {
+/* .gallery {
   margin: 10px 500px;
-}
+} */
 
 .gallery img {
   transition: 1s;
@@ -212,8 +228,7 @@ header a {
 }
 
 #illustrations {
-  background-image: url("../images/sketch-3218196_1920.jpg");
-  color: red
+  background-image: url("../images/illustrate2.jpg");
 }
 
 h2 {
@@ -233,6 +248,8 @@ footer {
   color: beige;
 }
 
+
+/* Gallery */
 .hovereffect {
   width: 100%;
   height: 100%;
@@ -384,4 +401,125 @@ footer {
   transform: translate3d(0, 0, 0);
   opacity: 1;
   filter: alpha(opacity=100);
+}
+
+
+/* Scroll button */
+.scroll-down {
+  opacity: 1;
+  -webkit-transition: all .5s ease-in 3s;
+  transition: all .5s ease-in 3s;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -16px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  border: 2px solid rgb(12, 11, 11);
+  background-size: 14px auto;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.scroll-down:before {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 6px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid rgb(0, 0, 0);
+    border-width: 0px 0 2px 2px;
+}
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+
+
+.scroll-up {
+  opacity: 1;
+  -webkit-transition: all .5s ease-in 3s;
+  transition: all .5s ease-in 3s;
+}
+
+.scroll-up {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -16px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  border: 2px solid rgb(12, 11, 11);
+  background-size: 14px auto;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.scroll-up:before {
+    position: absolute;
+    top: calc(50% - 4px);
+    left: calc(50% - 6px);
+    transform: rotate(135deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid rgb(0, 0, 0);
+    border-width: 0px 0 2px 2px;
+}
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
 }

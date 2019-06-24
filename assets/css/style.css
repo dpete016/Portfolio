@@ -195,9 +195,22 @@ section p {
   height: auto;
 }
 
-/* .gallery {
-  margin: 10px 500px;
-} */
+
+
+td h3{
+  font-size: 1em;
+  text-align: center;
+  font-weight: bolder;
+}
+
+td p{
+  font-size:0.8em;
+  font-weight: 50;
+  text-align: center;
+  position: relative;
+  width: 200px;
+  margin: 20px
+}
 
 .gallery img {
   transition: 1s;
